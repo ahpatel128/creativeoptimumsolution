@@ -1,7 +1,8 @@
-<a class="menu-toggle rounded active" href="#">
-    <i class="fas fa-bars"></i>
+  <a class="menu-toggle rounded active" (click)="changeNavigation()">
+    <i *ngIf="isActive" class="fas fa-bars"></i>
+    <i *ngIf="!isActive" class="fas fa-times"></i>
   </a>
-  <nav id="sidebar-wrapper" class="active">
+  <nav *ngIf="!isActive" id="sidebar-wrapper" class="active">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
         <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
