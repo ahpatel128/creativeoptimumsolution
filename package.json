@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/build-webpack": "^0.1201.1",
     "@angular/animations": "~12.1.1",
     "@angular/common": "~12.1.1",
     "@angular/compiler": "~12.1.1",
@@ -21,6 +22,7 @@
     "bootstrap": "^5.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
+    "webpack-dev-server": "^3.11.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
