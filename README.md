@@ -1,5 +1,12 @@
 # Creativeoptimumsolution
 
+Error: Running Scripts Is Disabled On This System In Angular
+
+## enable angular in windows run following command:
+
+set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
 ## Development server
