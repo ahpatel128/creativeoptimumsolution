@@ -1,8 +1,5 @@
-.masthead{
-    background:url(../../assets/img/banners/2.png);
-    background-image:  no-repeat;
-    background-position:  center;
-    background-attachment: fixed; 
-    background-size: cover;
-    height: 10%;
+.my-masthead{
+    /* background:url(../../assets/img/banners/1.png); */
+    background-color: rgb(239, 250, 215);
+    height: 15%;
     }
