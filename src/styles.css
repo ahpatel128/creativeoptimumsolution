@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.text-secondary{
+    color: #ffc107!important;
+}
+.content-section-heading h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.my-masthead{
+    background-color:antiquewhite;
+    height: 15%;
+    }
