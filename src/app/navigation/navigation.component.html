@@ -1,32 +1,39 @@
-  <a class="menu-toggle rounded active" (click)="changeNavigation()">
-    <i *ngIf="isActive" class="fas fa-bars"></i>
-    <i *ngIf="!isActive" class="fas fa-times"></i>
-  </a>
-  <nav *ngIf="!isActive" id="sidebar-wrapper" class="active">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger"  routerLink="home">Creative Optimum Solution</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" routerLink="home">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" routerLink="about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
+<a class="menu-toggle rounded active" (click)="changeNavigation()">
+  <i *ngIf="isActive" class="fas fa-bars"></i>
+  <i *ngIf="!isActive" class="fas fa-times"></i>
+</a>
+<nav *ngIf="!isActive" id="sidebar-wrapper" class="active">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand">
+      <a class="js-scroll-trigger" routerLink="home">Creative Optimum Solution</a>
+    </li>
+    <li class="sidebar-nav-item">
+      <a class="js-scroll-trigger" routerLink="home">Home</a>
+    </li>
+    <li class="sidebar-nav-item">
+      <a class="js-scroll-trigger" routerLink="about">About</a>
+    </li>
+    <li class="dropdown sidebar-nav-item">
+      <a class="js-scroll-trigger dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Web development</a>
+        </li>
+      </ul>
+    </li>
+    <!-- <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" routerLink="services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
+      </li> -->
+    <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" routerLink="products">Our Products</a>
       </li>
-      <li class="sidebar-nav-item">
+    <!-- <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" routerLink="GraphicsDisplay">Graphics Display</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" routerLink="pricing">Pricings</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" routerLink="Contact">Contact Us</a>
-      </li>
-    </ul>
-  </nav>
+      </li> -->
+    <li class="sidebar-nav-item">
+      <a class="js-scroll-trigger" routerLink="pricing">Pricings</a>
+    </li>
+    <li class="sidebar-nav-item">
+      <a class="js-scroll-trigger" routerLink="Contact">Contact Us</a>
+    </li>
+  </ul>
+</nav>
