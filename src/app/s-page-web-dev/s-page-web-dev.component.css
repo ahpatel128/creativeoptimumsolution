@@ -1,0 +1,38 @@
+.content-section {
+    padding-top: 2.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.text-brown {
+    COLOR: #7e5050;
+}
+
+.bg-light {
+    padding: 2%;
+}
+
+.masthead {
+    min-height: fit-content !important;
+    position: relative; 
+     display: table;
+     padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../../assets/img/Banners/web-Development.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Uppercase{
+    text-transform: uppercase;
+}
+.font-large{
+    font-size: xxx-large;
+}
+.masthead-text {
+    padding: 2%;
+    background: #f8f9fabf;
+    font-weight: bolder;
+    color: #460202 !important;
+    width: 98%;
+}

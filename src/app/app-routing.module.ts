@@ -7,6 +7,10 @@ import { PagePricingComponent } from './page-pricing/page-pricing.component';
 import { PageProductsComponent } from './page-products/page-products.component';
 import { PageServicesComponent } from './page-services/page-services.component';
 import { PageHomeComponent } from './page-home/page-home.component';
+import { SPageWebDevComponent } from './s-page-web-dev/s-page-web-dev.component';
+import { SPageDesignComponent } from './s-page-design/s-page-design.component';
+import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
+import { SPageDataComponent } from './s-page-data/s-page-data.component';
 
 const routes: Routes = [
   {path: '', component: PageHomeComponent},
@@ -16,6 +20,10 @@ const routes: Routes = [
 {path: 'Contact', component: PageContactComponent},
 {path: 'pricing', component: PagePricingComponent},
 {path: 'products', component: PageProductsComponent},
+{path: 'webdevelopment', component: SPageWebDevComponent},
+{path: 'webdesign', component: SPageDesignComponent},
+{path: 'apiintegration', component: SPageIntegrationComponent},
+{path: 'dataservices', component: SPageDataComponent},
 ];
 
 @NgModule({
