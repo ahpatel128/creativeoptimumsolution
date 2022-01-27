@@ -1,31 +1,38 @@
-.masthead{
-    background-image:  no-repeat;
-    background-position:  center;
-    background-attachment: fixed; 
+.masthead {
+    background-image: url(../../assets/img/bg-masthead.png);
+    background-image: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.img-hero {
+    height: 7rem;
+    margin-bottom: 5%;
+}
+
+.bggradint {
+    background: linear-gradient(70deg, #ee2222, #c052ee, #238bd5, #3344ee);
+    background-size: 400% 400%;
+    animation: gradient 20s cubic-bezier(0.67, 0.44, 0.24, 0.43) infinite;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    z-index: -10;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
-    .img-hero{
-        height: 7rem;
-        margin-bottom: 5%;
+
+    50% {
+        background-position: 100% 50%;
     }
-    .video-container{
-        background-image: url(../../assets/img/bg-masthead.png);
-        position: relative;
-        height: 100vh;
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    100% {
+        background-position: 0% 50%;
     }
-    .video-container video{
-        z-index: -99;
-        position: absolute;
-        height: auto;
-        width: auto;
-        min-width: 100%;
-        min-height: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
+}
