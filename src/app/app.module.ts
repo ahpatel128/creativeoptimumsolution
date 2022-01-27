@@ -17,6 +17,10 @@ import { PageProductsComponent } from './page-products/page-products.component';
 import { PagePricingComponent } from './page-pricing/page-pricing.component';
 import { PageContactComponent } from './page-contact/page-contact.component';
 import { PageHomeComponent } from './page-home/page-home.component';
+import { SPageWebDevComponent } from './s-page-web-dev/s-page-web-dev.component';
+import { SPageDesignComponent } from './s-page-design/s-page-design.component';
+import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
+import { SPageDataComponent } from './s-page-data/s-page-data.component';
 
 
 @NgModule({
@@ -34,7 +38,11 @@ import { PageHomeComponent } from './page-home/page-home.component';
     PageProductsComponent,
     PagePricingComponent,
     PageContactComponent,
-    PageHomeComponent
+    PageHomeComponent,
+    SPageWebDevComponent,
+    SPageDesignComponent,
+    SPageIntegrationComponent,
+    SPageDataComponent
   ],
   imports: [
     BrowserModule,
