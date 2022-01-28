@@ -2,9 +2,52 @@
     padding-top: 2.5rem;
     padding-bottom: 7.5rem;
 }
-.text-brown{
-    COLOR: #7e5050;
-}
-.bg-light{
+.bg-light {
     padding: 2%;
+}
+
+.margin-top-s-p{
+    margin-top: 3rem;
+
+}
+.text-large{
+    font-size: larger;
+}
+.service-icon {
+    background-color: #343a40;
+    color: #e9ecef;
+    height: 7.6rem;
+    width: 7.9rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 4rem;
+    box-shadow: 0 3px 14px 0 rgb(0 0 0 / 10%);
+    text-align: -webkit-center;
+}
+.masthead {
+    min-height: fit-content !important;
+    position: relative; 
+     display: table;
+     padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../../assets/img/Banners/Data-services.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Uppercase{
+    text-transform: uppercase;
+}
+.font-large{
+    font-size: xxx-large;
+}
+.color-blue{
+    color: #006472 !important;
+}
+.masthead-text {
+    padding: 2%;
+    background: #f8f9fabf;
+    font-weight: bolder;
+    width: 98%;
 }

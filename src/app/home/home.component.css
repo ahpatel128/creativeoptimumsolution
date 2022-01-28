@@ -1,12 +1,3 @@
-.masthead {
-    background-image: url(../../assets/img/bg-masthead.png);
-    background-image: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-}
 
 .img-hero {
     height: 7rem;
@@ -14,7 +5,7 @@
 }
 
 .bggradint {
-    background: linear-gradient(70deg, #ee2222, #c052ee, #238bd5, #3344ee);
+    background: linear-gradient(0deg, #ff1919, #52dcee, #238bd5, #ff9900);
     background-size: 400% 400%;
     animation: gradient 20s cubic-bezier(0.67, 0.44, 0.24, 0.43) infinite;
     height: -webkit-fit-content;
@@ -25,14 +16,20 @@
 
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 25%;
+    }
+
+    25% {
+        background-position: 50% 25%;
     }
 
     50% {
-        background-position: 100% 50%;
+        background-position: 75% 50%;
     }
-
-    100% {
-        background-position: 0% 50%;
+    75% {
+        background-position: 100% 75%;
+    }
+    100%{
+        background-position: 0% 100%;
     }
 }
