@@ -21,6 +21,7 @@ import { SPageWebDevComponent } from './s-page-web-dev/s-page-web-dev.component'
 import { SPageDesignComponent } from './s-page-design/s-page-design.component';
 import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
 import { SPageDataComponent } from './s-page-data/s-page-data.component';
+import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { SPageDataComponent } from './s-page-data/s-page-data.component';
     SPageWebDevComponent,
     SPageDesignComponent,
     SPageIntegrationComponent,
-    SPageDataComponent
+    SPageDataComponent,
+    PPageEComComponent
   ],
   imports: [
     BrowserModule,
