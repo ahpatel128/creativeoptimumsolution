@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ContactComponent } from './contact/contact.component';
+// import { ContactComponent } from './contact/contact.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { APP_BASE_HREF } from '@angular/common';
@@ -31,7 +31,7 @@ import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
     AboutComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent,
+    // ContactComponent,
     NavigationComponent,
     FooterComponent,
     PageServicesComponent,

@@ -9,7 +9,7 @@
 }
 
 .my-masthead {
-    background-color: antiquewhite;
+    background-color: rgb(219, 219, 219);
     height: fit-content;
     padding: 1%;
 }
@@ -25,7 +25,9 @@
 .masthead-text {
     padding: 2%;
     color: #270101!important;
-    background: #ffffffc7;
+    background: #f4f4f4;
+    box-shadow: 1px 0px 11px #6c757d;
     font-weight: bolder;
     width: 100%;
+    border-radius: 7px;
 }
