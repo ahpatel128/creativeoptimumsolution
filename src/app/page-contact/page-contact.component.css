@@ -1,0 +1,42 @@
+.shadow-down {
+    position: relative;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #c7c7c7;
+    height: 60px;
+}
+
+.btn-primary {
+    background: #41228e;
+    color: #fff;
+}
+.btn {
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 16px 44px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: 0.2s ease;
+}
+.theme-color-inv{
+    color: white!important;
+    background-color: #7e5050!important;
+}
+.theme-color{
+    color:  #7e5050 !important;
+    background-color:white!important;
+}

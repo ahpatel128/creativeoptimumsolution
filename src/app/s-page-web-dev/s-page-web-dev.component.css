@@ -1,42 +1,29 @@
 .content-section {
     padding-top: 2.5rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 2.5rem;
 }
-
-.text-brown {
-    COLOR: #7e5050;
-}
-
-.bg-light {
-    padding: 2%;
-}
-
 .margin-top-s-p{
-    margin-top: 3rem;
-
+    margin-top: 2.5rem;
 }
 .text-large{
     font-size: larger;
 }
 .service-icon {
-    background-color: #343a40;
-    color: #e9ecef;
-    height: 7.6rem;
-    width: 7.9rem;
+    height: 7rem;
+    width: 7rem;
     display: block;
     line-height: 7.5rem;
-    font-size: 4rem;
-    box-shadow: 0 3px 14px 0 rgb(0 0 0 / 10%);
-    text-align: -webkit-center;
+    font-size: 3rem;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 66%);
 }
 .masthead {
     min-height: fit-content !important;
-    position: relative; 
-     display: table;
-     padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    background:linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../../assets/img/Banners/web-Development.png);
+    position: relative;
+    display: table;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: -webkit-fill-available;
+    background: url('../../assets/img/Banners/web-Development.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,11 +33,4 @@
 }
 .font-large{
     font-size: xxx-large;
-}
-.masthead-text {
-    padding: 2%;
-    background: #f8f9fabf;
-    font-weight: bolder;
-    color: #460202 !important;
-    width: 98%;
 }

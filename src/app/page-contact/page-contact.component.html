@@ -1,8 +1,75 @@
-  <header class="my-masthead d-flex" >
-    <div class="container text-center my-auto" style="color: #7e5050;">
-        <h1 class="mb-1">Contact Us</h1>
-        Talk to us or leave a feedback  
-        <app-contact></app-contact>
-    </div>
+<header class="my-masthead d-flex mb-5">
+  <div class="container text-center my-auto masthead-text">
+    <h1 class="mb-1">Contact Us</h1>
+    Talk to us or leave a feedback
+  </div>
+
 </header>
-  
+
+<section class="section section-on-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto mb-5">
+        <div class="rounded text-center p-5 shadow-down"
+          style="background-color: #d4d4d440;box-shadow: 0px 0px 20px 9px #0000002e;">
+          <h4 class="mb-5">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4"
+                required>
+            </div>
+            <div class="col-12">
+              <input list="Options" type="text" name="option" id="option" class="form-control px-0 mb-4" placeholder="Type of enquiry"
+                required>
+            </div>
+            <datalist id="Options">
+              <option value="Sales- General"></option>
+              <option value="Quotation of products"></option>
+              <option value="Services description"></option>
+              <option value="Support- Ask us technologies"></option>
+              <option value="General- anything at all"></option>
+              <option value="Other- You still have another option"></option>
+            </datalist>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4" placeholder="Type Message Here"
+                required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="theme-color btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 mb-5 text-center">
+      <h2 class="section-title">Contact Info</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center theme-color margin-top-s-p animate__animated animate__rubberBand"
+            style="font-size: 5rem;">
+            <i class="fas fa-phone"></i>
+          </div>
+
+          Phone: AU: +61 413 775 918
+          <br>
+          IN: +91 87 35 808 185
+        </div>
+        <div class="col-md-6">
+          <div class="text-center theme-color margin-top-s-p animate__animated animate__rubberBand"
+          style="font-size: 5rem;">
+          <i class="fas fa-envelope-open-text"></i>
+        </div>
+          Email:
+          info@creativeoptimumsoution.com
+          <br>
+          creativeoptimumsoution@gmail.com
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <app-contact></app-contact>   -->

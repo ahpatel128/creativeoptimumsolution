@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ContactComponent } from './contact/contact.component';
+// import { ContactComponent } from './contact/contact.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { APP_BASE_HREF } from '@angular/common';
@@ -21,6 +21,7 @@ import { SPageWebDevComponent } from './s-page-web-dev/s-page-web-dev.component'
 import { SPageDesignComponent } from './s-page-design/s-page-design.component';
 import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
 import { SPageDataComponent } from './s-page-data/s-page-data.component';
+import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { SPageDataComponent } from './s-page-data/s-page-data.component';
     AboutComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent,
+    // ContactComponent,
     NavigationComponent,
     FooterComponent,
     PageServicesComponent,
@@ -42,7 +43,8 @@ import { SPageDataComponent } from './s-page-data/s-page-data.component';
     SPageWebDevComponent,
     SPageDesignComponent,
     SPageIntegrationComponent,
-    SPageDataComponent
+    SPageDataComponent,
+    PPageEComComponent
   ],
   imports: [
     BrowserModule,
