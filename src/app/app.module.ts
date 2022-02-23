@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,6 +22,7 @@ import { SPageDesignComponent } from './s-page-design/s-page-design.component';
 import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
 import { SPageDataComponent } from './s-page-data/s-page-data.component';
 import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
+import {ReactiveFormsModule} from '@angular/forms'
 
 
 @NgModule({
@@ -48,7 +49,9 @@ import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [{ provide: APP_BASE_HREF, useValue: '' }],
   bootstrap: [AppComponent]

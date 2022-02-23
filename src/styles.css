@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .text-secondary {
-    color: #ffc107 !important;
+    color: #074367!important;
 }
 
 .content-section-heading h3 {
@@ -19,15 +19,53 @@
     margin-bottom: 1.5%;
 }
 .theme-color{
-    color: #000000!important;
+    color: #074367!important;
     background: #ffffff00;
 }
 .masthead-text {
     padding: 2%;
-    color: #270101!important;
+    color: #074367!important;
     background: #f4f4f4;
     box-shadow: 1px 0px 11px #6c757d;
     font-weight: bolder;
     width: 100%;
     border-radius: 7px;
+}
+.bg-primary {
+    background-color: #074367!important;
+}
+.service-icon {
+    background-color: #fff;
+    color: #074367;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    transition: all .4s ease 0s;
+    transform: translateX(250px);
+    background: #074367;
+    border-left: 1px solid rgba(255,255,255,.1);
+}
+
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #074367;
+    transition: background-color .15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
 }
