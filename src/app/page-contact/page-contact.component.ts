@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 
 
@@ -13,7 +13,10 @@ export class PageContactComponent implements OnInit {
   show = true;
   SERVER_URL = "https://ms.merch4creators.com/api/Mail";
   contactForm = new FormGroup({
-    Name: new FormControl(''),
+    Name: new FormControl('', [
+      Validators.required,
+      Validators.minLength(4)
+    ]),
     Email: new FormControl(''),
     option: new FormControl(''),
     message: new FormControl('')
@@ -23,9 +26,11 @@ export class PageContactComponent implements OnInit {
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
+
   }
 
   onSubmit() {
+    console.log(this.contactForm.errors)
     const formData = new FormData;
     var Name = this.contactForm.get('Name')?.value;
     var Email = this.contactForm.get('Email')?.value;
@@ -45,17 +50,22 @@ export class PageContactComponent implements OnInit {
         'Access-Control-Allow-Origin': '*',
       })
     };
-
-    console.log(httpOptions);
+debugger
+    console.log(Name);
     console.log(raw);
+    //&& option != '' && message != '' && option != '' && message != ''
+    if (Email != "" &&  Name != ""  &&  message != ""  &&  option != "" && Email != null &&  Name != null  &&  message != null  &&  option != null) {
+      this.httpClient.post(this.SERVER_URL, raw, httpOptions).subscribe(
+        (res) => alert("Thanks for your enquiry. We will contact you soon."),
+        (err) => console.log(err)
 
-  
-    // this.httpClient.post(this.SERVER_URL, raw, httpOptions).subscribe(
-    //   (res) => console.log(res),
-    //   (err) => console.log(err)
-    // );
-    // ('#element').toast('show')
-
+      );
+     
+    }else
+    {
+      alert("Please fill all details.")
+    }
+    this.contactForm.reset();
 
   }
 

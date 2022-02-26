@@ -8,7 +8,7 @@
 
 <section class="section section-on-footer">
   
-  <ngb-toast *ngIf="show" [autohide]="false" (hidden)="show=false">
+  <!-- <ngb-toast *ngIf="show" [autohide]="false" (hidden)="show=false">
     <ng-template ngbToastHeader>
       <div class="me-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@
       </div>
     </ng-template>
     Hello, I am toast. Have you noticed my header has been generated from a Template?
-  </ngb-toast>
+  </ngb-toast> -->
 
   <div class="container">
     <div class="row">
@@ -29,7 +29,8 @@
           <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="row">
             <!-- [FormGroup]="formdata"  -->
             <div class="col-md-6">
-              <input formControlName="Name" type="text" placeholder="Full Name" class="form-control px-0 mb-4" required>
+              <input formControlName="Name" type="text" placeholder="Full Name" autofocus class="form-control px-0 mb-4" required>
+           
             </div>
             <div class="col-md-6">
               <input type="email" formControlName="Email" placeholder="Email Address" class="form-control px-0 mb-4"
@@ -52,7 +53,7 @@
                 required></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button class="theme-color-inv btn btn-primary w-100">send</button>
+              <button class="theme-color-inv btn btn-primary w-100" type="submit">send</button>
             </div>
           </form>
         </div>

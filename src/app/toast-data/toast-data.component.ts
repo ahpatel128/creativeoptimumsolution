@@ -1,5 +1,4 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
-import { ToastService } from '../toast-service';
 
 
 @Component({
@@ -9,13 +8,13 @@ import { ToastService } from '../toast-service';
 })
 export class ToastDataComponent implements OnInit {
 
-  constructor(public toastService: ToastService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
   info = "Hello world";
-  showSuccess(info: string | TemplateRef<any>) {
-    this.toastService.show(info, { classname: 'bg-success text-light', delay: 10000 });
+  showSuccess() {
+    alert("Hello world");
   }
 
 
