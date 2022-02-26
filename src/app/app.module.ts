@@ -22,7 +22,7 @@ import { SPageDesignComponent } from './s-page-design/s-page-design.component';
 import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
 import { SPageDataComponent } from './s-page-data/s-page-data.component';
 import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
-import {ReactiveFormsModule} from '@angular/forms'
+import {ReactiveFormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -45,7 +45,7 @@ import {ReactiveFormsModule} from '@angular/forms'
     SPageDesignComponent,
     SPageIntegrationComponent,
     SPageDataComponent,
-    PPageEComComponent
+    PPageEComComponent,
   ],
   imports: [
     BrowserModule,
