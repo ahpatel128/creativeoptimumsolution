@@ -1,9 +1,8 @@
-import { HttpClient,HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 
-// import { Subject } from 'rxjs';
-//  import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-page-contact',
@@ -11,7 +10,8 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./page-contact.component.css']
 })
 export class PageContactComponent implements OnInit {
-  SERVER_URL = "https://ms.merch4creators.com/api/mail";
+  show = true;
+  SERVER_URL = "https://ms.merch4creators.com/api/Mail";
   contactForm = new FormGroup({
     Name: new FormControl(''),
     Email: new FormControl(''),
@@ -41,17 +41,20 @@ export class PageContactComponent implements OnInit {
     // console.log(raw);
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type':  'application/json',
+        'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
       })
     };
-    
-    console.log(httpOptions);
-    this.httpClient.get(this.SERVER_URL,httpOptions).subscribe(
-    (res) => console.log(res),
-      (err) => console.log(err)
-     );
 
+    console.log(httpOptions);
+    console.log(raw);
+
+  
+    // this.httpClient.post(this.SERVER_URL, raw, httpOptions).subscribe(
+    //   (res) => console.log(res),
+    //   (err) => console.log(err)
+    // );
+    // ('#element').toast('show')
 
 
   }
