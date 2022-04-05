@@ -1,3 +1,9 @@
 .dropdown-menu.show {
     display: contents;
 }
+.sidebar-brand{
+    font-size: small;
+}
+.navbar-hero{
+    height: 2rem;
+}

@@ -1,11 +1,14 @@
-
 .img-hero {
-    height: 7rem;
-    margin-bottom: 5%;
+    height: 10rem;
+    margin-bottom: 1%;
+}
+
+.brand-hero {
+    font-size: 3rem;
 }
 
 .bggradint {
-    background: linear-gradient(0deg, #ff1919, #52dcee, #238bd5, #ff9900);
+    background: linear-gradient(0deg, #9719ff, #52dcee, #238bd5, #00ffbf);
     background-size: 400% 400%;
     animation: gradient 20s cubic-bezier(0.67, 0.44, 0.24, 0.43) infinite;
     height: -webkit-fit-content;
@@ -20,16 +23,29 @@
     }
 
     25% {
-        background-position:  25% 50%;
+        background-position: 25% 50%;
     }
 
     50% {
         background-position: 50% 75%;
     }
+
     75% {
         background-position: 75% 100%;
     }
-    100%{
+
+    100% {
         background-position: 100% 0%;
     }
+}
+
+.home-hero {
+    padding: 6% 3%;
+    background: #f8f9fabf;
+    font-weight: revert;
+    color: #074367!important;
+    border-radius: 20px;
+    /* text-shadow: 0px 12px 15px #00000085; */
+    height: fit-content;
+    width: fit-content;
 }
