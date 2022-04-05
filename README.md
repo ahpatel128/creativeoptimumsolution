@@ -9,7 +9,7 @@ set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.(Previously)
 
-**Now using Angular version 13.1.4**
+<p style='color:#ff0000'> Now using Angular version 13.1.4 </p>
 
 ## Development server
 
