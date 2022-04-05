@@ -7,9 +7,7 @@ Error: Running Scripts Is Disabled On This System In Angular
 set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.(Previously)
-
-<p style='color:#ff0000'> Now using Angular version 13.1.4 </p>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version **13.1.4**.(Previously: Angular version 12.1.1  )
 
 ## Development server
 
