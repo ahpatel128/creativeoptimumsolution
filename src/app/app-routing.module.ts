@@ -12,7 +12,9 @@ import { SPageDesignComponent } from './s-page-design/s-page-design.component';
 import { SPageIntegrationComponent } from './s-page-integration/s-page-integration.component';
 import { SPageDataComponent } from './s-page-data/s-page-data.component';
 import { PPageEComComponent } from './p-page-e-com/p-page-e-com.component';
-import { ToastDataComponent } from './toast-data/toast-data.component';
+
+
+
 const routes: Routes = [
   { path: '', component: PageHomeComponent },
   { path: 'home', component: PageHomeComponent },
@@ -26,7 +28,7 @@ const routes: Routes = [
   { path: 'apiintegration', component: SPageIntegrationComponent },
   { path: 'dataservices', component: SPageDataComponent },
   { path: 'Product-Ecommerce', component: PPageEComComponent },
-  { path: 'Toast', component:ToastDataComponent}
+  
 ];
 
 @NgModule({
